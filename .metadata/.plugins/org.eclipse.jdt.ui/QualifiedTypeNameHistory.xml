@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.curd.bo.EmployeeBO"/>
+    <fullyQualifiedTypeName name="com.curd.service.EmployeeSearchService"/>
+    <fullyQualifiedTypeName name="com.curd.dto.EmployeeDTO"/>
+    <fullyQualifiedTypeName name="com.curd.dao.EmployeeSearchDAO"/>
+    <fullyQualifiedTypeName name="com.curd.cfgs.ServiceAppConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="com.java.gof.singletonpatterns.SingletonTest"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.java.gof.singletonpatterns.SingletonBreakerThread"/>
+    <fullyQualifiedTypeName name="com.java.gof.singletonpatterns.Printer"/>
+    <fullyQualifiedTypeName name="com.java.gof.singletonpatterns.SingletonBreakerUsingCloning"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2116835498.index
+/SpringCURDWebBased_100p/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3673264911.index
+/SpringCURDWebBased_XML_BasedApproch/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3883284886.index
+/SpringCURDWebBased_Anno/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/374318484.index
+/SpringCURDWebBased_XML_BasedApproch/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2201092586.index
+/SpringCURDWebBased_Anno/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3924956760.index
+/SpringCURDWebBased/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/802860320.index
+/SpringCURDWebBased/src/main/java
+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2153395307.index
+/SpringCURDWebBased_100p/src/main/java

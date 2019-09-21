@@ -1,0 +1,5 @@
+package com.java.gof.singletonpatterns;
+
+public class SingletonBreakerUsingCloning implements Cloneable{
+
+}

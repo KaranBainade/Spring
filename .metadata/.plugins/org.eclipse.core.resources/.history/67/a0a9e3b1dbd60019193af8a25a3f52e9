@@ -1,0 +1,17 @@
+package com.basic.beans;
+
+public class WishGenrator {
+
+	
+//	public String genrateWishMsg(String  name) {
+//		
+//		
+//		return"";
+//	}
+	
+	
+	public static void main(String[] args) {
+		LocalTime now = LocalTime.now();
+		System.out.println(now.getHour());
+	}
+}

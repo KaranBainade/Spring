@@ -1,0 +1,13 @@
+package com.java.gof.singletonpatterns;
+
+public class SingletonTest {
+	public static void main(String[] args) {
+	
+		th.start();
+		
+		for(int i =0 ; i < 10 ; i++) {
+			System.out.println(Printer.getIntance().hashCode());	
+		}
+		
+	}
+}

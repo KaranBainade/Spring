@@ -1,0 +1,23 @@
+package com.curd.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import com.curd.bo.EmployeeBO;
+
+
+
+public class EmployeeSearchDAOImpl implements EmployeeSearchDAO {
+	private DataSource ds;
+	
+	  public EmployeeSearchDAOImpl(DataSource ds) {
+			this.ds = ds;
+		}
+
+
+}//class

@@ -1,0 +1,12 @@
+package com.java.gof.singletonpatterns;
+
+public class Printer {
+	
+	private Printer() {
+		System.out.println("Printer.Printer()");
+	}
+	
+	public Printer getIntance() {
+		return new Printer();
+	}
+}

@@ -1,0 +1,32 @@
+package com.basic.beans;
+
+import java.time.LocalTime;
+
+public class WishGenrator {
+	
+	Date date;
+	
+	public void setNow(LocalTime now) {
+		this.now = now;
+	}
+
+	public String genrateWishMsg(String  name) {
+		//LocalTime now = LocalTime.now();
+		int current_hour = now.getHour();
+		
+		if(current_hour < 12) {
+			return "GOOD MORNING "+name;
+		}else if(current_hour < 18){
+			return "GOOD EVNG "+name;
+		}else {
+			return "GOOD Night "+name;
+		}
+		
+	}
+	
+	
+//	public static void main(String[] args) {
+//		LocalTime now = LocalTime.now();
+//		System.out.println(now.getHour());
+//	}
+}

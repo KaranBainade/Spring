@@ -1,0 +1,20 @@
+package com.java.gof.singletonpatterns;
+
+public class Printer  implements Cloneable{
+	private static Printer printer ;
+	
+	private Printer() {
+		System.out.println("Printer.Printer()");
+	}
+	
+	public static Printer getIntance() {
+		if(printer == null) {
+			synchronized (Printer.class) {
+				if(printer == null) {
+					printer =  new Printer();
+				}
+			}
+		}
+		return printer;
+	}
+}

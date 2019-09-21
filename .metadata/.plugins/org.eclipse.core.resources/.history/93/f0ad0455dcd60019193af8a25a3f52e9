@@ -1,0 +1,9 @@
+package com.basic.test;
+
+import com.basic.beans.WishGenrator;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println(new WishGenrator().genrateWishMsg("viyaa"));
+	}
+}

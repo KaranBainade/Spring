@@ -1,0 +1,30 @@
+package com.curd.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+
+import com.curd.bo.EmployeeBO;
+import com.curd.dao.EmployeeSearchDAO;
+import com.curd.dto.EmployeeDTO;
+
+
+public class EmployeeSearchServiceImpl implements EmployeeSearchService {
+    private EmployeeSearchDAO dao;
+   	private String  name;
+
+	
+
+	public EmployeeSearchServiceImpl(EmployeeSearchDAO dao, String name) {
+		
+			this.dao = dao;
+			this.name = name;
+		}
+	
+	 public String getName() {
+			return name;
+		}
+    
+
+}//class

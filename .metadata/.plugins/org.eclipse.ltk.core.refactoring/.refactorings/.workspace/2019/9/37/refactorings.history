@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringCURDWebBased&apos; to &apos;SpringCURDWebBased_XML_BasedApproch&apos;" description="Rename resource &apos;SpringCURDWebBased&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringCURDWebBased" name="SpringCURDWebBased_XML_BasedApproch" stamp="1568381529811" updateReferences="true"/>
+</session>

@@ -1,0 +1,44 @@
+package com.curd.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+
+import com.curd.dto.EmployeeDTO;
+import com.curd.service.EmployeeSearchService;
+import com.curd.service.EmployeeSearchServiceImpl;
+import com.curd.vo.EmployeeVO;
+
+@Controller
+public class EmployeeSearchController {
+	private EmployeeSearchService service;
+
+	public EmployeeSearchController(EmployeeSearchService service) {
+		this.service = service;
+		System.out.println("service.name"+((EmployeeSearchServiceImpl)service).getName());
+	}
+	
+	public  List<EmployeeVO>  getEmpsByDesg(String desgs[])throws Exception{
+		List<EmployeeDTO> listDTO=null;
+		List<EmployeeVO> listVO=new ArrayList();
+		//use SErvice
+		listDTO=service.getAllEmps();
+		//listDTO.stream().filter(getAllEmps);
+		//copy listDTO to listVO
+		System.out.println("in service");
+		listDTO.forEach(dto->{
+			 EmployeeVO vo=new EmployeeVO();
+			 vo.setSno(String.valueOf(dto.getSno()));
+			 vo.setEno(String.valueOf(dto.getEno()));
+			 vo.setEname(dto.getEname());
+			 vo.setJob(dto.getJob());
+			vo.setSalary(String.valueOf(dto.getSalary()));
+			vo.setDeptno(String.valueOf(dto.getDeptno()));
+			System.out.println(vo);
+			listVO.add(vo);
+		});
+		
+		return listVO;
+	}//method
+}//class

@@ -1,0 +1,5 @@
+#jdbc properties
+jdbc.driver=
+jdbc.url=
+jdbc.user=root
+jdbc.pwd=root

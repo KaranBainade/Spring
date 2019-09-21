@@ -1,0 +1,12 @@
+package com.basic.beans;
+
+public class WishGenrator {
+
+	
+//	public String genrateWishMsg(String  name) {
+//		
+//		
+//		return"";
+//	}
+	
+}

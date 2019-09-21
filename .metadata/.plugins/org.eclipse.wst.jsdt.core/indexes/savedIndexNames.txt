@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/media/vsp2/a46e298a-7700-4a5e-9a10-c89dd6349394/POC Projects/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+723899997.index
+908537933.index
+2706938753.index
+2820782237.index
+3703194086.index
+1348890287.index
+2399668308.index
+2305942224.index
+92419718.index
