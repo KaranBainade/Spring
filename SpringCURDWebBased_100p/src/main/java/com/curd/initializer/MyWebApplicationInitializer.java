@@ -9,16 +9,19 @@ public class MyWebApplicationInitializer extends AbstractAnnotationConfigDispatc
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
+		System.out.println("MyWebApplicationInitializer.getRootConfigClasses()");
 		return new Class[] {RootAppConfig.class};
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
+		System.out.println("MyWebApplicationInitializer.getServletConfigClasses()");
 		return new Class[] {WebMvcAppConfig.class};
 	}
 
 	@Override
 	protected String[] getServletMappings() {
+		System.out.println("MyWebApplicationInitializer.getServletMappings()");
 		return new String[] {"*.htm"};
 	}
 
